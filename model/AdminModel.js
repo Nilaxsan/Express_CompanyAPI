@@ -1,7 +1,6 @@
 import mongoose from "mongoose";
 
 const adminSchema= new mongoose.Schema({
-    _id: Number,
     UserName:{
         type:String,
         required:true
